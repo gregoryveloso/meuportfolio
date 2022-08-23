@@ -1,0 +1,285 @@
+@font-face {
+    font-family: "SuperMarketed";
+    src: url("/fontes/SuperMarketed/Supermarketed.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Caviar";
+    src: url("/fontes/Caviar/CaviarDreams.ttf") format("truetype"),
+         url("/fontes/Caviar/CaviarDreams_Bold.ttf") format("truetype"),
+         url("/fontes/Caviar/CaviarDreams_BoldItalic.ttf") format("truetype"),
+         url("/fontes/Caviar/CaviarDreams_Italic.ttf") format("truetype") ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: "SuperMarketed", "Caviar", sans-serif;
+ font-weight: normal;
+ font-style: normal;
+ background-color: black;
+ color: white;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+body{
+    width: 95%;
+}
+
+/* //////////////////////////////////////// */
+@media screen and (min-width:920px){
+#container{
+    padding-top: 5px;
+    width: 100%; 
+    height: 50px;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    padding: 20px 0px;
+}
+
+#menu{
+    width: 75%;
+    height: 50px;
+}
+
+#itens-menu{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+#itens-menu a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Caviar";
+    padding: 2px 6px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 3.5em;
+
+}
+
+#itens-menu a:hover{
+    background-color: white;
+    color: black;
+    font-size: 3.5em;
+    border-radius: 10px;
+}
+
+#apresentacao{
+    padding-top: 10px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#pri{
+    width: 55%;
+    height: auto;
+
+}
+#texto-apresentacao{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+
+}
+#texto-apresentacao p{
+    margin-top: 80px;
+    width: 80%;
+    font-size: 4em;
+    display: block;
+    float: right;
+
+}
+#redes-sociais{
+    margin-top: 170px;
+    width: auto;
+    height: auto;
+}
+.social{
+    margin-left: 100px;
+    text-align: center;
+    display: flex;
+}
+.social b{
+    text-align: left;
+    font-size: 3em;
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+.social img{
+    width: 100px;
+    display: block;
+    float: right;
+}
+.item1{
+    width: 30%;
+}
+.item2{
+    width: 65%;
+}
+#imagem-apresentacao{
+    width: 45%;
+}
+#imagem-apresentacao img{
+    margin-top: -10px;
+}
+}
+
+
+/* //////////////////////////////////////// */
+@media screen and (max-width:920px){
+#container{
+    padding-top: 5px;
+    width: 100%; 
+    height: 50px;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+#menu{
+    width: 75%;
+    height: 50px;
+}
+
+#itens-menu{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+#itens-menu a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Caviar";
+    padding: 2px 6px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 1.7em;
+
+}
+
+#itens-menu a:hover{
+    background-color: white;
+    color: black;
+    font-size: 1.7em;
+    border-radius: 10px;
+}
+
+#apresentacao{
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#texto-apresentacao{
+    width: 55%;
+    height: 400px;
+    background-color: blue;
+}
+
+#imagem-apresentacao{
+    width: 40%;
+    height: 400px;
+    background-color: green;
+}
+}
+
+/* //////////////////////////////////////// */
+@media screen and (max-width:480px){
+#container{
+    padding-top: 5px;
+    width: 100%; 
+    height: 50px;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+#menu{
+    width: 95%;
+    height: 50px;
+}
+
+#itens-menu{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+#itens-menu a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Caviar";
+    padding: 2px 6px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+
+}
+
+#itens-menu a:hover{
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+#apresentacao{
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+}
+
+#texto-apresentacao{
+    width: 80%;
+    height: 300px;
+    background-color: orange;
+}
+
+#imagem-apresentacao{
+    margin-top: 10px;
+    width: 80%;
+    height: 300px;
+    background-color: cyan;
+}
+}
+
+
+
