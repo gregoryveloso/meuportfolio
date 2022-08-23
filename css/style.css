@@ -6,10 +6,10 @@
 }
 @font-face {
     font-family: "Caviar";
-    src: url("./fontes/Caviar/CaviarDreams.ttf") format("truetype"),
-         url("./fontes/Caviar/CaviarDreams_Bold.ttf") format("truetype"),
-         url("./fontes/Caviar/CaviarDreams_BoldItalic.ttf") format("truetype"),
-         url("./fontes/Caviar/CaviarDreams_Italic.ttf") format("truetype") ;
+    src: url("fontes/Caviar/CaviarDreams.ttf") format("truetype"),
+         url("fontes/Caviar/CaviarDreams_Bold.ttf") format("truetype"),
+         url("fontes/Caviar/CaviarDreams_BoldItalic.ttf") format("truetype"),
+         url("fontes/Caviar/CaviarDreams_Italic.ttf") format("truetype") ;
     font-weight: normal;
     font-style: normal;
 }
