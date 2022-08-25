@@ -1,15 +1,12 @@
 @font-face {
     font-family: "SuperMarketed";
-    src: url("./fontes/SuperMarketed/Supermarketed.otf") format("opentype");
+    src: url("/fontes/SuperMarketed/Supermarketed.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Caviar";
-    src: url("fontes/Caviar/CaviarDreams.ttf") format("truetype"),
-         url("fontes/Caviar/CaviarDreams_Bold.ttf") format("truetype"),
-         url("fontes/Caviar/CaviarDreams_BoldItalic.ttf") format("truetype"),
-         url("fontes/Caviar/CaviarDreams_Italic.ttf") format("truetype") ;
+    src: url("/fontes/Caviar/CaviarDreams.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -20,6 +17,7 @@
  font-family: "SuperMarketed", "Caviar", sans-serif;
  font-weight: normal;
  font-style: normal;
+ font-size: 14px;
  background-color: black;
  color: white;
  width: 100%;
@@ -32,7 +30,7 @@ body{
 }
 
 /* //////////////////////////////////////// */
-@media screen and (min-width:920px){
+@media screen and (min-width:901px){
 #container{
     padding-top: 5px;
     width: 100%; 
@@ -43,19 +41,18 @@ body{
 header{
     width: 100%;
     height: 50px;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 #menu{
-    width: 75%;
-    height: 50px;
+    width: 100%;
+    height: 60px;
 }
 
 #itens-menu{
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: black;
 }
 #itens-menu a{
     list-style-type: none;
@@ -67,21 +64,19 @@ header{
     text-decoration: none;
     background-color: black;
     color: white;
-    font-size: 3.5em;
+    font-size: 3em;
 
 }
 
 #itens-menu a:hover{
     background-color: white;
     color: black;
-    font-size: 3.5em;
+    font-size: 3em;
     border-radius: 10px;
 }
 
 #apresentacao{
-    padding-top: 10px;
     width: 100%;
-    height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,41 +84,38 @@ header{
 #pri{
     width: 55%;
     height: auto;
-
 }
 #texto-apresentacao{
     margin-top: 50px;
     width: 100%;
     height: 250px;
-
 }
 #texto-apresentacao p{
-    margin-top: 80px;
+    margin-top: 40px;
     width: 80%;
-    font-size: 4em;
+    font-size: 2.8em;
     display: block;
     float: right;
-
 }
 #redes-sociais{
-    margin-top: 170px;
     width: auto;
     height: auto;
 }
 .social{
+    width: 90%;
     margin-left: 100px;
     text-align: center;
     display: flex;
 }
 .social b{
     text-align: left;
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 20px;
     display: block;
     float: left;
 }
 .social img{
-    width: 100px;
+    width: 50%;
     display: block;
     float: right;
 }
@@ -135,6 +127,7 @@ header{
 }
 #imagem-apresentacao{
     width: 45%;
+    height: 200px;
 }
 #imagem-apresentacao img{
     margin-top: -10px;
@@ -143,30 +136,27 @@ header{
 
 
 /* //////////////////////////////////////// */
-@media screen and (max-width:920px){
+@media screen and (max-width:900px){
 #container{
     padding-top: 5px;
-    width: 100%; 
-    height: 50px;
-    background-color: black;
+    width: 100%;
 }
 
 header{
     width: 100%;
-    height: 50px;
-    background-color: black;
+    height: 40px;
+    padding: 10px 0px;
 }
 
 #menu{
-    width: 75%;
-    height: 50px;
+    width: 100%;
+    height: 60px;
 }
 
 #itens-menu{
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: black;
 }
 #itens-menu a{
     list-style-type: none;
@@ -178,107 +168,347 @@ header{
     text-decoration: none;
     background-color: black;
     color: white;
-    font-size: 1.7em;
+    font-size: 2.5em;
 
 }
 
 #itens-menu a:hover{
     background-color: white;
     color: black;
-    font-size: 1.7em;
+    font-size: 2.5em;
     border-radius: 10px;
 }
 
 #apresentacao{
-    padding-top: 0px;
     width: 100%;
-    height: 100%;
-    background-color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#texto-apresentacao{
+#pri{
     width: 55%;
-    height: 400px;
-    background-color: blue;
+    height: auto;
+}
+
+#texto-apresentacao{
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 80%;
+    height: 150px;
+}
+
+#texto-apresentacao p{
+    margin-top: 40px;
+    font-size: 2.1em;
+    display: block;
+    float: right;
+}
+
+#redes-sociais{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+
+.social{
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+}
+.social b{
+    text-align: left;
+    font-size: 2em;
+    margin-top: 25px;
+    display: block;
+    float: left;
+}
+.social img{
+    display: block;
+    float: right;
+}
+.item1{
+    margin-left: 30px;
+    width: 15%;
+}
+.item2{
+    margin-left: -30px;
+    width: 65%;
 }
 
 #imagem-apresentacao{
-    width: 40%;
+    width: 38%;
     height: 400px;
-    background-color: green;
 }
 }
 
+
 /* //////////////////////////////////////// */
-@media screen and (max-width:480px){
+@media screen and (max-width:790px){
+header{
+    width: 100%;
+    height: 30px;
+    padding: 10px 0px;
+}
+#itens-menu a{
+    font-size: 2em;
+}
+
+#itens-menu a:hover{
+    font-size: 2em;
+}
+
+#texto-apresentacao{
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 80%;
+    height: 150px;
+}
+
+#texto-apresentacao p{
+    margin-top: 40px;
+    font-size: 1.8em;
+    display: block;
+    float: right;
+}
+
+#redes-sociais{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+.social{
+    margin-left: 80px;
+    width: 100%;
+    display: flex;
+}
+
+.social b{
+    text-align: left;
+    font-size: 1.7em;
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+
+}
+
+
+/* //////////////////////////////////////// */
+@media screen and (max-width:680px){
+header{
+    width: 100%;
+    height: 20px;
+    padding: 10px 0px;
+}
+
+#itens-menu a{
+    font-size: 1.7em;
+}
+
+#itens-menu a:hover{
+    font-size: 1.7em;
+}
+
+#texto-apresentacao{
+    margin-left: 100px;
+    width: 80%;
+    height: 130px;
+}
+
+#texto-apresentacao p{
+    margin-top: 50px;
+    font-size: 1.3em;
+    display: block;
+    float: right;
+}
+
+#redes-sociais{
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+}
+
+.social{
+    margin-left: 80px;
+    width: 100%;
+    display: flex;
+}
+
+.social b{
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: 14px;
+    display: block;
+    float: left;
+}
+.social img{
+    display: block;
+    float: right;
+}
+.item1{
+    margin-left: 30px;
+    width: 15%;
+}
+.item2{
+    margin-left: -20px;
+    width: 65%;
+}
+}
+
+
+/* //////////////////////////////////////// */
+@media screen and (max-width:580px){
+header{
+    width: 100%;
+    height: 15px;
+    padding: 10px 0px;
+}
+
+#itens-menu a{
+    font-size: 1.3em;
+
+}
+
+#itens-menu a:hover{
+    font-size: 1.3em;
+}
+
+#texto-apresentacao{
+    margin-left: 60px;
+    width: 80%;
+    height: 90px;
+}
+
+#texto-apresentacao p{
+    margin-top: 20px;
+    font-size: 1.1em;
+    display: block;
+    float: right;
+}
+
+#redes-sociais{
+    width: auto;
+    height: auto;
+}
+
+.social{
+    margin-left: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.social b{
+    text-align: left;
+    font-size: 1em;
+    margin-top: 8px;
+    display: block;
+    float: left;
+}
+.item2{
+    margin-left: -10px;
+    width: 65%;
+}
+}
+
+
+/* //////////////////////////////////////// */
+@media screen and (max-width:450px){
 #container{
     padding-top: 5px;
     width: 100%; 
-    height: 50px;
-    background-color: black;
 }
 
 header{
     width: 100%;
     height: 50px;
-    background-color: black;
+    padding: 10px 0px;
 }
 
 #menu{
-    width: 95%;
-    height: 50px;
+    width: 100%;
+    height: 60px;
 }
 
 #itens-menu{
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: black;
 }
 #itens-menu a{
     list-style-type: none;
     text-decoration: none;
     font-family: "Caviar";
-    padding: 2px 6px;
+    padding: 2px 8px;
     width: auto;
     text-align: center;
     text-decoration: none;
-    background-color: black;
-    color: white;
-    font-size: 1.2em;
+    font-size: 1.7em;
 
 }
 
 #itens-menu a:hover{
     background-color: white;
     color: black;
-    font-size: 1.2em;
+    font-size: 1.7em;
     border-radius: 10px;
 }
 
 #apresentacao{
-    padding-top: 0px;
+    width: 90%;
+}
+#pri{
     width: 100%;
-    height: 100%;
-    background-color: black;
-    display: block;
+    height: auto;
 }
-
 #texto-apresentacao{
-    width: 80%;
-    height: 300px;
-    background-color: orange;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 130px;
+}
+#texto-apresentacao p{
+    width: 100%;
+    font-size: 1.7em;
+    display: block;
+    float: right;
+}
+#redes-sociais{
+    width: auto;
+    height: auto;
+}
+.social{
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+}
+.social b{
+    text-align: left;
+    font-size: 1.5em;
+    margin-top: 15px;
+    display: block;
+    float: left;
+}
+.social img{
+    width: 50%;
+    display: block;
+    float: right;
+}
+.item1{
+    width: 30%;
+}
+.item2{
+    margin-left: 10px;
+    width: 65%;
+}
+#imagem-apresentacao{
+    width: 100%;
+    height: 200px;
 }
 
-#imagem-apresentacao{
-    margin-top: 10px;
-    width: 80%;
-    height: 300px;
-    background-color: cyan;
-}
 }
 
 
