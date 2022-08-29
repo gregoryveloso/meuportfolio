@@ -29,6 +29,8 @@ body{
     width: 95%;
 }
 
+
+
 /* //////////////////////////////////////// */
 @media screen and (min-width:901px){
 #container{
@@ -43,7 +45,7 @@ header{
     height: 50px;
     padding: 10px 0px;
 }
-
+/*---------------------    INICIO   ---------------------*/
 #menu{
     width: 100%;
     height: 60px;
@@ -132,6 +134,46 @@ header{
 #imagem-apresentacao img{
     margin-top: -10px;
 }
+/*---------------------   FIM INICIO   ---------------------*/
+
+/*-----------------------   SOBRE   ------------------------*/
+
+#sobre-mim{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#sobre-mim h1{
+    font-size: 4em;
+}
+
+#imagem-sobre{
+    margin-top: 40px;
+    width: 35%;
+    height: 250px;
+}
+
+#imagem-sobre img{
+    width: 55%;
+    float: right;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+#texto-sobre{
+    margin-top: 40px;
+    width: 50%;
+    height: 400px;
+}
+
+#texto-sobre p{
+    font-size: 1.8em;
+    text-align: left;
+}
+
+/*----------------------  FIM SOBRE   ----------------------*/
 }
 
 
@@ -158,6 +200,7 @@ header{
     height: 100%;
     text-align: center;
 }
+
 #itens-menu a{
     list-style-type: none;
     text-decoration: none;
@@ -216,6 +259,7 @@ header{
     width: 100%;
     display: flex;
 }
+
 .social b{
     text-align: left;
     font-size: 2em;
@@ -223,14 +267,17 @@ header{
     display: block;
     float: left;
 }
+
 .social img{
     display: block;
     float: right;
 }
+
 .item1{
     margin-left: 30px;
     width: 15%;
 }
+
 .item2{
     margin-left: -30px;
     width: 65%;
@@ -240,6 +287,46 @@ header{
     width: 38%;
     height: 400px;
 }
+
+/*-----------------------   SOBRE   ------------------------*/
+
+#sobre-mim{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#sobre-mim h1{
+    font-size: 4em;
+}
+
+#imagem-sobre{
+    margin-top: 40px;
+    width: 35%;
+    height: 250px;
+}
+
+#imagem-sobre img{
+    width: 65%;
+    float: right;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+#texto-sobre{
+    margin-top: 40px;
+    width: 50%;
+    height: 400px;
+}
+
+#texto-sobre p{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/*----------------------  FIM SOBRE   ----------------------*/
+
 }
 
 
@@ -250,6 +337,7 @@ header{
     height: 30px;
     padding: 10px 0px;
 }
+
 #itens-menu a{
     font-size: 2em;
 }
@@ -258,6 +346,9 @@ header{
     font-size: 2em;
 }
 
+#apresentacao{
+    height: 300px;
+}
 #texto-apresentacao{
     margin-top: 10px;
     margin-left: 100px;
@@ -292,6 +383,45 @@ header{
     float: left;
 }
 
+/*-----------------------   SOBRE   ------------------------*/
+
+#sobre-mim{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#sobre-mim h1{
+    font-size: 4em;
+}
+
+#imagem-sobre{
+    margin-top: 40px;
+    width: 40%;
+    height: 250px;
+}
+
+#imagem-sobre img{
+    width: 65%;
+    float: right;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+#texto-sobre{
+    margin-top: 40px;
+    width: 50%;
+    height: 400px;
+}
+
+#texto-sobre p{
+    font-size: 1.3em;
+    text-align: left;
+}
+
+/*----------------------  FIM SOBRE   ----------------------*/
+
 }
 
 
@@ -309,6 +439,13 @@ header{
 
 #itens-menu a:hover{
     font-size: 1.7em;
+}
+
+#apresentacao{
+    height: 250px;
+}
+#pri{
+    height: 200px;
 }
 
 #texto-apresentacao{
@@ -355,6 +492,48 @@ header{
     margin-left: -20px;
     width: 65%;
 }
+
+#imagem-apresentacao{
+    height: 200px;
+}
+/*-----------------------   SOBRE   ------------------------*/
+
+#sobre-mim{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+#sobre-mim h1{
+    font-size: 3.5em;
+}
+
+#imagem-sobre{
+    margin-top: 20px;
+    width: 90%;
+    height: 200px;
+
+}
+
+#imagem-sobre img{
+    width: 30%;
+    border: 2px solid;
+    float: none;
+    border-color: aliceblue;
+}
+#texto-sobre{
+    margin-top: 20px;
+    width: 90%;
+    height: 300px;
+}
+
+#texto-sobre p{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+/*----------------------  FIM SOBRE   ----------------------*/
 }
 
 
@@ -410,6 +589,45 @@ header{
     margin-left: -10px;
     width: 65%;
 }
+
+/*-----------------------   SOBRE   ------------------------*/
+
+#sobre-mim{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+#sobre-mim h1{
+    font-size: 3.5em;
+}
+
+#imagem-sobre{
+    margin-top: 20px;
+    width: 90%;
+    height: 200px;
+
+}
+
+#imagem-sobre img{
+    width: 35%;
+    border: 2px solid;
+    float: none;
+    border-color: aliceblue;
+}
+#texto-sobre{
+    margin-top: 10px;
+    width: 90%;
+    height: 300px;
+}
+
+#texto-sobre p{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/*----------------------  FIM SOBRE   ----------------------*/
 }
 
 
@@ -457,6 +675,7 @@ header{
 
 #apresentacao{
     width: 90%;
+    padding-bottom: 300px;
 }
 #pri{
     width: 100%;
@@ -509,6 +728,45 @@ header{
     height: 200px;
 }
 
+/*-----------------------   SOBRE   ------------------------*/
+
+#sobre-mim{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+#sobre-mim h1{
+    font-size: 3.5em;
+}
+
+#imagem-sobre{
+    margin-top: 20px;
+    width: 90%;
+    height: 270px;
+
+}
+
+#imagem-sobre img{
+    width: 60%;
+    border: 2px solid;
+    float: none;
+    border-color: aliceblue;
+}
+#texto-sobre{
+    margin-top: 10px;
+    width: 85%;
+    height: 300px;
+}
+
+#texto-sobre p{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+/*----------------------  FIM SOBRE   ----------------------*/
 }
 
 
