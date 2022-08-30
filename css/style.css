@@ -40,6 +40,11 @@ body{
     background-color: black;
 }
 
+h1{
+    font-size: 4em;
+    text-align: center;
+}
+
 header{
     width: 100%;
     height: 50px;
@@ -144,10 +149,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-}
-
-#sobre-mim h1{
-    font-size: 4em;
+    padding-bottom: 60px;
 }
 
 #imagem-sobre{
@@ -174,6 +176,44 @@ header{
 }
 
 /*----------------------  FIM SOBRE   ----------------------*/
+
+
+/*-----------------------   O QUE EU SEI   ------------------------*/
+
+#o-que-sei{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.habilidades{
+    display: flex;
+    width: 21%;
+    height: 100px;
+}
+.img-hab{
+    width: 130px;
+}
+.img-hab img{
+    display: block;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+.txt-hab{
+    width: 170px;
+}
+.txt-hab p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 2em;
+}
+/*-----------------------  FIM O QUE EU SEI   ------------------------*/
+
+/*-----------------------   EXPERIÊNCIA   ------------------------*/
+
+
+/*-----------------------  FIM EXPERIÊNCIA   ------------------------*/
 }
 
 
@@ -182,6 +222,11 @@ header{
 #container{
     padding-top: 5px;
     width: 100%;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
 }
 
 header{
@@ -298,10 +343,6 @@ header{
     width: 100%;
 }
 
-#sobre-mim h1{
-    font-size: 4em;
-}
-
 #imagem-sobre{
     margin-top: 40px;
     width: 35%;
@@ -338,6 +379,12 @@ header{
     padding: 10px 0px;
 }
 
+h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+
 #itens-menu a{
     font-size: 2em;
 }
@@ -349,6 +396,7 @@ header{
 #apresentacao{
     height: 300px;
 }
+
 #texto-apresentacao{
     margin-top: 10px;
     margin-left: 100px;
@@ -393,10 +441,6 @@ header{
     width: 100%;
 }
 
-#sobre-mim h1{
-    font-size: 4em;
-}
-
 #imagem-sobre{
     margin-top: 40px;
     width: 40%;
@@ -426,53 +470,48 @@ header{
 
 
 /* //////////////////////////////////////// */
-@media screen and (max-width:680px){
+@media screen and (max-width:680px){    
 header{
     width: 100%;
     height: 20px;
     padding: 10px 0px;
 }
-
+h1{
+    font-size: 3.5em;
+}
 #itens-menu a{
     font-size: 1.7em;
 }
-
 #itens-menu a:hover{
     font-size: 1.7em;
 }
-
 #apresentacao{
     height: 250px;
 }
 #pri{
     height: 200px;
 }
-
 #texto-apresentacao{
     margin-left: 100px;
     width: 80%;
     height: 130px;
 }
-
 #texto-apresentacao p{
     margin-top: 50px;
     font-size: 1.3em;
     display: block;
     float: right;
 }
-
 #redes-sociais{
     width: auto;
     height: auto;
     margin-top: 0px;
 }
-
 .social{
     margin-left: 80px;
     width: 100%;
     display: flex;
 }
-
 .social b{
     text-align: left;
     font-size: 1.3em;
@@ -492,7 +531,6 @@ header{
     margin-left: -20px;
     width: 65%;
 }
-
 #imagem-apresentacao{
     height: 200px;
 }
@@ -504,18 +542,12 @@ header{
     display: block;
     width: 100%;
 }
-
-#sobre-mim h1{
-    font-size: 3.5em;
-}
-
 #imagem-sobre{
     margin-top: 20px;
     width: 90%;
     height: 200px;
 
 }
-
 #imagem-sobre img{
     width: 30%;
     border: 2px solid;
@@ -527,7 +559,6 @@ header{
     width: 90%;
     height: 300px;
 }
-
 #texto-sobre p{
     font-size: 1.4em;
     text-align: center;
@@ -544,40 +575,36 @@ header{
     height: 15px;
     padding: 10px 0px;
 }
-
+h1{
+    font-size: 3.5em;
+}
 #itens-menu a{
     font-size: 1.3em;
 
 }
-
 #itens-menu a:hover{
     font-size: 1.3em;
 }
-
 #texto-apresentacao{
     margin-left: 60px;
     width: 80%;
     height: 90px;
 }
-
 #texto-apresentacao p{
     margin-top: 20px;
     font-size: 1.1em;
     display: block;
     float: right;
 }
-
 #redes-sociais{
     width: auto;
     height: auto;
 }
-
 .social{
     margin-left: 40px;
     width: 100%;
     display: flex;
 }
-
 .social b{
     text-align: left;
     font-size: 1em;
@@ -598,18 +625,12 @@ header{
     display: block;
     width: 100%;
 }
-
-#sobre-mim h1{
-    font-size: 3.5em;
-}
-
 #imagem-sobre{
     margin-top: 20px;
     width: 90%;
     height: 200px;
 
 }
-
 #imagem-sobre img{
     width: 35%;
     border: 2px solid;
@@ -621,7 +642,6 @@ header{
     width: 90%;
     height: 300px;
 }
-
 #texto-sobre p{
     font-size: 1.3em;
     text-align: center;
@@ -637,18 +657,18 @@ header{
     padding-top: 5px;
     width: 100%; 
 }
-
+h1{
+    font-size: 3.5em;
+}
 header{
     width: 100%;
     height: 50px;
     padding: 10px 0px;
 }
-
 #menu{
     width: 100%;
     height: 60px;
 }
-
 #itens-menu{
     width: 100%;
     height: 100%;
@@ -665,14 +685,12 @@ header{
     font-size: 1.7em;
 
 }
-
 #itens-menu a:hover{
     background-color: white;
     color: black;
     font-size: 1.7em;
     border-radius: 10px;
 }
-
 #apresentacao{
     width: 90%;
     padding-bottom: 300px;
@@ -736,18 +754,12 @@ header{
     display: block;
     width: 100%;
 }
-
-#sobre-mim h1{
-    font-size: 3.5em;
-}
-
 #imagem-sobre{
     margin-top: 20px;
     width: 90%;
     height: 270px;
 
 }
-
 #imagem-sobre img{
     width: 60%;
     border: 2px solid;
@@ -759,7 +771,6 @@ header{
     width: 85%;
     height: 300px;
 }
-
 #texto-sobre p{
     font-size: 1.4em;
     text-align: center;
