@@ -63,7 +63,6 @@ header{
     width: 100%;
     height: 60px;
 }
-
 #itens-menu{
     width: 100%;
     height: 100%;
@@ -82,14 +81,12 @@ header{
     font-size: 3em;
 
 }
-
 #itens-menu a:hover{
     background-color: white;
     color: black;
     font-size: 3em;
     border-radius: 10px;
 }
-
 #apresentacao{
     width: 100%;
     display: flex;
@@ -159,13 +156,11 @@ header{
     width: 100%;
     padding-bottom: 60px;
 }
-
 #imagem-sobre{
     margin-top: 40px;
     width: 35%;
     height: 250px;
 }
-
 #imagem-sobre img{
     width: 55%;
     float: right;
@@ -177,7 +172,6 @@ header{
     width: 50%;
     height: 400px;
 }
-
 #texto-sobre p{
     font-size: 1.8em;
     text-align: left;
@@ -226,7 +220,7 @@ header{
 #linha-do-tempo{
     margin-top: 10px;
     width: 100%;
-    height: 110px;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -289,6 +283,7 @@ header{
 
 #projetos{
     margin-top: 80px;
+    padding-bottom: 50px;
 }
 #jogos{
     margin-top: 20px;
@@ -355,6 +350,14 @@ header{
     font-family: "Quantify", sans-serif ;
     background-color: white;
 }
+#texto-jogo button:hover{
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    font-size: 4em;
+    font-family: "Quantify", sans-serif ;
+    background-color: gray;
+}
 #sites{
     margin-top: 20px;
     width: 100%;
@@ -395,8 +398,103 @@ header{
     font-family: "Quantify", sans-serif ;
     background-color: white;
 }
+.site button:hover{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 250px;
+    color: white;
+    font-size: 2.5em;
+    font-family: "Quantify", sans-serif ;
+    background-color: gray;
+}
 /*-----------------------  FIM PROJETOS   ------------------------*/
 
+/*-----------------------   CONTATO   ------------------------*/
+#contato{
+    width: 90%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contato .social2{
+    padding: 10px 0px;
+    width:  100%;
+    height: auto;
+    margin-left: 100px;
+    text-align: center;
+    display: flex;
+}
+#contato .social2 b{
+    text-align: left;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+}
+#contato .social2 img{
+    width: 100px;
+    display: block;
+    float: right;
+}
+#contato .social2 .item1{
+    width: 30%;
+}
+#contato .social2 .item2{
+    width: 70%;
+}
+
+#contato .social{
+    padding: 10px 0px;
+    width: 50%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    display: flex;
+}
+#contato .social b{
+    text-align: left;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+}
+#contato .social img{
+    width: 100px;
+    display: block;
+    float: right;
+}
+#contato .social .item1{
+    width: 30%;
+}
+#contato .social .item2{
+    width: 70%;
+}
+
+/*-----------------------  FIM CONTATO   ------------------------*/
+
+/*-----------------------   RODAPÉ   ------------------------*/
+#criado-por{
+    padding: 5px 0px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+    height: 30px;
+}
+#criado-por h3 {
+    width: 50%;
+    float: left;
+    font-size: 2em;
+    color: black;   
+    height: 30px;
+    background-color: white;
+}
+
+/*-----------------------  FIM RODAPÉ   ------------------------*/
 
 }
 
