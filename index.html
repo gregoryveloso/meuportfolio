@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Gregory</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <!-- 
     <style>
         @import url(css/disp-peq.css) (max-width:480px);
@@ -38,21 +38,29 @@
                     <br> desenvolvedor de jogos digitais</p>
                 </div>
                 <div id="redes-sociais">
-                        <div class="social">
+                        <div class="social" >
                             <div class="item1">
-                                <img src="./imagens/github_vector_white.png">
+                                <a href="https://github.com/gregoryveloso" target="_blank">
+                                    <img src="./imagens/github_vector_white.png">
+                                </a>
                             </div>
                             <div class="item2">
-                                <b>/gregoryveloso</b>
+                                <a href="https://github.com/gregoryveloso" target="_blank">
+                                    <b>/gregoryveloso</b>
+                                </a>
                             </div>
                         </div>
                         <br>
                         <div class="social">
                             <div class="item1">
-                                <img src="./imagens/linkedin_vector_white.png">
+                                <a href="https://www.linkedin.com/in/gregory-veloso/" target="_blank">
+                                     <img src="./imagens/linkedin_vector_white.png">
+                                </a>               
                             </div>
                             <div class="item2">
-                            <b>in/gregory-veloso</b>  
+                                <a href="https://www.linkedin.com/in/gregory-veloso/" target="_blank">
+                                    <b>in/gregory-veloso</b>  
+                                </a>
                             </div>
                         </div>                        
                 </div>
@@ -146,41 +154,41 @@
                 <div id="linha-do-tempo">
                     <div class="linha">
                     </div>
-                     <div class="bola">
+                     <div class="bola" id="exp-2015" onclick="show2015()">
                         <p>2015</p>
                     </div>
                     <div class="linha">
                     </div>
-                     <div class="bola">
+                     <div class="bola" id="exp-2018"  onclick="show2018()">
                         <p>2018</p>
                     </div>      
                     <div class="linha">
                     </div>
-                     <div class="bola">
+                     <div class="bola" id="exp-2019" onclick="show2019()">
                         <p>2019</p>
                     </div>      
                     <div class="linha">
                     </div>
-                     <div class="bola">
+                     <div class="bola" id="exp-2020" onclick="show2020()">
                         <p>2020</p>
                     </div>      
                     <div class="linha">
                     </div>
-                     <div class="bola">
+                     <div class="bola" id="exp-2021"  onclick="show2021()">
                         <p>2021</p>
                     </div>      
                     <div class="linha">
                     </div>
-                     <div class="bola">
+                     <div class="bola" id="exp-2022"  onclick="show2022()">
                         <p>2022</p>
                     </div>  
                     <div class="linha">
                     </div>                      
                 </div>
                 <div id="tabela">
-                    <h3>SUPERGEEKS</h3>
+                    <h3>EMPRESA</h3>
                     <h4>-</h4>
-                    <p>* Instrutor Pleno(Jan/Ago)</p>
+                    <p>*Click no ano para ver o cargo e empresa </p>
                 </div>
             </section>
 
@@ -188,16 +196,19 @@
                 <h1> < Projetos > </h1>
                 <div id="jogos">
                     <div id="jogos-feitos">
-                        <img src="./imagens/A terra Perdida - logo.jpg" class="logo-jogo">
-                        <img src="./imagens/Prison Escape - logo.jpg" class="logo-jogo">
-                        <img src="./imagens/Soulless - logo.jpg" class="logo-jogo">
+                        <img src="./imagens/A terra Perdida - logo.jpg" class="logo-jogo" onclick= showTerra()>
+                        <img src="./imagens/Prison Escape - logo.jpg" class="logo-jogo" onclick= showPrison()>
+                        <img src="./imagens/Soulless - logo.jpg" class="logo-jogo" 
+                        onclick= showSoulless()>
                     </div>
                     <div id="mostra-do-jogo">   
                         <div id="video-jogo">   
-                            <img src="./imagens/Soulless - logo.jpg">
+                            <video width="320" height="300" controls poster="./imagens/Soulless - logo.jpg">
+                                <source src="./videos/Soulless - trailer.mp4" type="video/mp4">
+                            </video>
                         </div>
                         <div id= "texto-jogo">   
-                            <h1> SOULESS </h1>
+                            <h1> SOULLESS </h1>
                             <p>Em um universo distópico governado por adultos que estão isentos de sentimentos, um robô considerado como falha parte em uma jornada para entender o significado dos sentimentos </p>
                             <button> Jogar </button>
                         </div>
@@ -205,27 +216,27 @@
                 </div>
                 <div id="sites">    
                     <div class="site">
-                        <img src="./imagens/Soulless - logo.jpg">
-                        <h1> Souless </h1>
-                        <p>Em um universo distópico governado por adultos que estão isentos de sentimentos, um robô considerado como falha parte em uma jornada para entender o significado dos sentimentos </p>
+                        <img src="../imagens/em-construcao.jpg">
+                        <h1> Em desenvolvimento </h1>
+                        <p>Site criado para demonstrar o conhecimento aprendido ao longo do período de estudos </p>
                         <button> VISUALIZAR </button>
                     </div>
                     <div class="site">
-                        <img src="./imagens/Soulless - logo.jpg">
-                        <h1> Souless </h1>
-                        <p>Em um universo distópico governado por adultos que estão isentos de sentimentos, um robô considerado como falha parte em uma jornada para entender o significado dos sentimentos </p>
+                        <img src="../imagens/em-construcao.jpg">
+                        <h1> Em desenvolvimento </h1>
+                        <p>Site criado para demonstrar o conhecimento aprendido ao longo do período de estudos </p>
                         <button> VISUALIZAR </button>
                     </div>
                     <div class="site">
-                        <img src="./imagens/Soulless - logo.jpg">
-                        <h1> Souless </h1>
-                        <p>Em um universo distópico governado por adultos que estão isentos de sentimentos, um robô considerado como falha parte em uma jornada para entender o significado dos sentimentos </p>
+                        <img src="../imagens/em-construcao.jpg">
+                        <h1> Em desenvolvimento </h1>
+                        <p>Site criado para demonstrar o conhecimento aprendido ao longo do período de estudos </p>
                         <button> VISUALIZAR </button>
                     </div>
                     <div class="site">
-                        <img src="./imagens/Soulless - logo.jpg">
-                        <h1> Souless </h1>
-                        <p>Em um universo distópico governado por adultos que estão isentos de sentimentos, um robô considerado como falha parte em uma jornada para entender o significado dos sentimentos </p>
+                        <img src="../imagens/em-construcao.jpg">
+                        <h1> Em desenvolvimento </h1>
+                        <p>Site criado para demonstrar o conhecimento aprendido ao longo do período de estudos </p>
                         <button> VISUALIZAR </button>
                     </div>
                 </div>
@@ -235,28 +246,40 @@
                 <h1> < Contato > </h1>
                 <div class="social2">
                     <div class="item1">
-                        <img src="./imagens/email_vector_white.png">
+                        <a href="mailto:gregory.veloso@gmail.com">
+                            <img src="./imagens/email_vector_white.png">
+                        </a>                    
                     </div>
                     <div class="item2">
-                        <b>gregory.veloso@gmail.com</b>
+                        <a href="mailto:gregory.veloso@gmail.com">
+                            <b>gregory.veloso@gmail.com</b>
+                        </a>
                     </div>
                 </div>
+                <div class="social" >
+                            <div class="item1">
+                                <a href="https://github.com/gregoryveloso" target="_blank">
+                                    <img src="./imagens/github_vector_white.png">
+                                </a>
+                            </div>
+                            <div class="item2">
+                                <a href="https://github.com/gregoryveloso" target="_blank">
+                                    <b>/gregoryveloso</b>
+                                </a>
+                            </div>
+                </div>
                 <div class="social">
-                    <div class="item1">
-                        <img src="./imagens/linkedin_vector_white.png">
-                    </div>
-                    <div class="item2">
-                        <b>in/gregory-veloso</b>
-                    </div>
+                            <div class="item1">
+                                <a href="https://www.linkedin.com/in/gregory-veloso/" target="_blank">
+                                     <img src="./imagens/linkedin_vector_white.png">
+                                </a>               
+                            </div>
+                            <div class="item2">
+                                <a href="https://www.linkedin.com/in/gregory-veloso/" target="_blank">
+                                    <b>in/gregory-veloso</b>  
+                                </a>
+                            </div>
                 </div>  
-                <div class="social">
-                        <div class="item1">
-                            <img src="./imagens/github_vector_white.png">
-                        </div>
-                        <div class="item2">
-                            <b>/gregoryveloso</b>
-                        </div>
-                </div>
                 <div class="social2">
                     <div class="item1">
                         <img src="./imagens/whatsapp_vector_white.png">
