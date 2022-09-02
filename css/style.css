@@ -331,7 +331,7 @@ header{
     align-items: center;
     display: flex;
 }
-#video-jogo video{
+#video-jogo iframe{
     margin-left: 10px;
 }
 #texto-jogo{

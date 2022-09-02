@@ -70,9 +70,7 @@ function showTerra(){
     var htmlfinaltexto = ""
 
 
-    htmlfinalvideo += '<video width="320" height="300" controls poster="./imagens/A terra Perdida - logo.jpg">'
-    htmlfinalvideo += '<source src="./videos/A terra perdida - trailer.mp4" type="video/mp4">' 
-    htmlfinalvideo += '</video>';                          
+    htmlfinalvideo += '<iframe width="560" height="315" src="https://www.youtube.com/embed/9gcOW_blI08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'                        
     idVideo.innerHTML = htmlfinalvideo                            
 
     htmlfinaltexto += "<h1 id='titulo-jogo'> A terra perdida </h1>"
@@ -89,9 +87,7 @@ function showPrison(){
     var htmlfinaltexto = ""
 
 
-    htmlfinalvideo += '<video width="320" height="300" controls poster="./imagens/Prison Escape - logo.jpg">'
-    htmlfinalvideo += '<source src="./videos/Prison Escape - trailer.mp4" type="video/mp4">' 
-    htmlfinalvideo += '</video>';                          
+    htmlfinalvideo += '<iframe width="560" height="315" src="https://www.youtube.com/embed/H0TxwoEd2Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'                         
     idVideo.innerHTML = htmlfinalvideo                          
 
     htmlfinaltexto += "<h1 id='titulo-jogo'> Prison Escape </h1>"
@@ -108,9 +104,7 @@ function showSoulless(){
     var htmlfinaltexto = ""
 
 
-    htmlfinalvideo += '<video width="320" height="300" controls poster="./imagens/Soulless - logo.jpg">'
-    htmlfinalvideo += '<source src="./videos/Soulless - trailer.mp4" type="video/mp4">' 
-    htmlfinalvideo += '</video>';                          
+    htmlfinalvideo += '<iframe width="560" height="315" src="https://www.youtube.com/embed/1LgXvN6Si0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'                       
     idVideo.innerHTML = htmlfinalvideo                            
 
     htmlfinaltexto += "<h1 id='titulo-jogo'> Soulless </h1>"
