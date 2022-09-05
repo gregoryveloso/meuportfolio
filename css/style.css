@@ -10,7 +10,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: "Quantify";
     src: url("../fontes/Quantify/Quantify.ttf") format("truetype");
@@ -37,8 +36,6 @@ body{
     width: 95%;
 }
 
-
-
 /* //////////////////////////////////////// */
 @media screen and (min-width:901px){
 #container{
@@ -47,17 +44,16 @@ body{
     height: 50px;
     background-color: black;
 }
-
 h1{
     font-size: 4em;
     text-align: center;
 }
-
 header{
     width: 100%;
     height: 50px;
     padding: 10px 0px;
 }
+
 /*---------------------    INICIO   ---------------------*/
 #menu{
     width: 100%;
@@ -147,7 +143,6 @@ header{
 /*---------------------   FIM INICIO   ---------------------*/
 
 /*-----------------------   SOBRE   ------------------------*/
-
 #sobre-mim{
     margin-top: 40px;
     text-align: center;
@@ -176,12 +171,10 @@ header{
     font-size: 1.8em;
     text-align: left;
 }
-
 /*----------------------  FIM SOBRE   ----------------------*/
 
 
 /*-----------------------   O QUE EU SEI   ------------------------*/
-
 #o-que-sei{
     width: 100%;
     height: 400px;
@@ -290,7 +283,6 @@ header{
 
 
 /*-----------------------   PROJETOS   ------------------------*/
-
 #projetos{
     margin-top: 80px;
     padding-bottom: 50px;
@@ -386,6 +378,7 @@ header{
 .site img{
     width: 80%;
     height: 290px;
+    border: 2px solid whitesmoke;
 }
 .site h1{
     font-family: 'Caviar', Regular;
@@ -454,7 +447,6 @@ header{
 #contato .social2 .item2{
     width: 70%;
 }
-
 #contato .social{
     padding: 10px 0px;
     width: 50%;
@@ -483,7 +475,6 @@ header{
 #contato .social .item2{
     width: 70%;
 }
-
 /*-----------------------  FIM CONTATO   ------------------------*/
 
 /*-----------------------   RODAPÉ   ------------------------*/
@@ -503,9 +494,7 @@ header{
     height: 30px;
     background-color: white;
 }
-
 /*-----------------------  FIM RODAPÉ   ------------------------*/
-
 }
 
 
@@ -957,8 +946,9 @@ header{
     height: 50px;
     padding: 10px 0px;
 }
+/*---------------------    INICIO   ---------------------*/
 #menu{
-    width: 100%;
+    width: 90%;
     height: 60px;
 }
 #itens-menu{
@@ -985,11 +975,12 @@ header{
 }
 #apresentacao{
     width: 90%;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
+    height: 600px;
 }
 #pri{
     width: 100%;
-    height: auto;
+    height: 250px;
 }
 #texto-apresentacao{
     text-align: center;
@@ -1035,16 +1026,17 @@ header{
 }
 #imagem-apresentacao{
     width: 100%;
-    height: 200px;
+    height: 300px;
 }
+/*---------------------   FIM INICIO   ---------------------*/
 
 /*-----------------------   SOBRE   ------------------------*/
-
 #sobre-mim{
     margin-top: 20px;
     text-align: center;
     display: block;
     width: 100%;
+    height: 850px;
 }
 #imagem-sobre{
     margin-top: 20px;
@@ -1067,9 +1059,248 @@ header{
     font-size: 1.4em;
     text-align: center;
 }
-
-
 /*----------------------  FIM SOBRE   ----------------------*/
+
+/*-----------------------   O QUE EU SEI   ------------------------*/
+#o-que-sei{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.habilidades{
+    display: flex;
+    width: 50%;
+    height: 80px;
+}
+.img-hab{
+    width: 100px;
+}
+.img-hab img{
+    display: block;
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+.img-hab img:hover{
+    display: block;
+    float: right;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.txt-hab{
+    width: 130px;
+}
+.txt-hab p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+/*-----------------------  FIM O QUE EU SEI   ------------------------*/
+
+/*-----------------------   EXPERIÊNCIA   ------------------------*/
+#experiencia{
+    width: 100%;
+    height: 700px;
+}
+#linha-do-tempo{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.linha{
+    background-image: url("../imagens/linha.png");
+    background-size: 100px 100px;
+    width: 20px;
+    height: 100px;
+    margin: 0px
+}
+.bola{
+    background-image: url("../imagens/circulo.png");
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0px
+}
+.bola:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.bola p{
+    color: black;
+    background-color:rgba(1, 1, 1, 0);
+    margin-top: 30px;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+#tabela{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+#tabela h3{
+    font-size: 2.5em;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px auto ;
+    width: 70%;
+}
+#tabela h4{
+    color: black;
+
+}
+#tabela p{
+    width: 90%;
+    margin-top: 10px;
+    font-size: 2em;
+    color: black;
+    background-color: white;
+
+}
+/*-----------------------  FIM EXPERIÊNCIA   ------------------------*/
+
+/*-----------------------   PROJETOS   ------------------------*/
+#projetos{
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+#jogos{
+    margin-top: 20px;
+    width: 100%;
+    height: 1500px;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+#jogos-feitos{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    border-bottom: 10px solid white;
+    align-content: center;
+    display: block;
+    justify-content: center;
+}
+.logo-jogo{
+    width: 100%;
+    height: 200px;
+}
+.logo-jogo:hover{
+    cursor: pointer;
+}
+#mostra-do-jogo{
+    width: 100%;
+    height: 420px;
+    display: block;
+    background-color: aqua;
+}
+#video-jogo{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+}
+#video-jogo iframe{
+    margin-left: 10px;
+}
+#texto-jogo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+#texto-jogo h1{
+    font-size: 6em;
+    font-family: 'Caviar', Regular;
+    font-weight: bolder;
+
+}
+#texto-jogo p{
+    width: 90%;
+    height: 250px;
+    font-size: 1.7em;
+}
+#texto-jogo button{
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    font-size: 4em;
+    font-family: "Quantify", sans-serif ;
+    background-color: white;
+}
+#texto-jogo button:hover{
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    font-size: 4em;
+    font-family: "Quantify", sans-serif ;
+    background-color: gray;
+}
+#sites{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.site{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.site img{
+    width: 95%;
+    height: 230px;
+    border: 2px solid whitesmoke;
+}
+.site h1{
+    margin-top: 20px;
+    font-family: 'Caviar', Regular;
+    width: 90%;
+    text-align: left;
+    font-size: 2.5em;
+}
+.site p{
+    width: 90%;
+    text-align: left;
+    font-size: 1.5em;
+}
+.site button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 250px;
+    color: black;
+    font-size: 2.5em;
+    font-family: "Quantify", sans-serif ;
+    background-color: white;
+}
+.site button:hover{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 250px;
+    color: white;
+    font-size: 2.5em;
+    font-family: "Quantify", sans-serif ;
+    background-color: gray;
+}
+/*-----------------------  FIM PROJETOS   ------------------------*/
+
+
 }
 
 
