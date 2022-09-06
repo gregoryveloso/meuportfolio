@@ -1036,7 +1036,7 @@ header{
     text-align: center;
     display: block;
     width: 100%;
-    height: 850px;
+    height: 900px;
 }
 #imagem-sobre{
     margin-top: 20px;
@@ -1113,10 +1113,8 @@ header{
     flex-wrap: wrap;
 }
 .linha{
-    background-image: url("../imagens/linha.png");
-    background-size: 100px 100px;
-    width: 20px;
-    height: 100px;
+    width: 0px;
+    height: 0px;
     margin: 0px
 }
 .bola{
@@ -1124,7 +1122,7 @@ header{
     background-size: 100px 100px;
     width: 100px;
     height: 100px;
-    margin: 0px
+    margin: 5px 5px;
 }
 .bola:hover{
     transform: scale(1.1);
@@ -1221,14 +1219,15 @@ header{
     align-items: center ;
 }
 #texto-jogo h1{
-    font-size: 6em;
+    font-size: 4em;
     font-family: 'Caviar', Regular;
     font-weight: bolder;
 
 }
 #texto-jogo p{
     width: 90%;
-    height: 250px;
+    height: auto;
+    padding-bottom: 20px;
     font-size: 1.7em;
 }
 #texto-jogo button{
@@ -1300,7 +1299,86 @@ header{
 }
 /*-----------------------  FIM PROJETOS   ------------------------*/
 
+/*-----------------------   CONTATO   ------------------------*/
+#contato{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#contato .social2{
+    margin-top: 20px;
+    width:  100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+#contato .social2 b{
+    font-size: 2em;
+    margin-top: 20px;
+}
+#contato .social2 img{
+    width: 75px;
+}
+#contato .social2 .item1{
+    width: 100%;
+    margin: 0px;
+}
+#contato .social2 .item2{
+    width: 100%;
+}
+#contato .social{
+    margin: 0px;
+    margin-top: 20px;
+    width:  100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+#contato .social b{
+    font-size: 3em;
+    margin-top: 0px;
+    align-content: center;
+    text-align: center;
+}
+#contato .social img{
+    width: 75px;
+    margin: 0px;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contato .social .item1{
+    width: 100%;
+    margin: 0px;
+}
+#contato .social .item2{
+    width: 100%;
+    margin: 0px;
+}
+/*-----------------------  FIM CONTATO   ------------------------*/
 
+/*-----------------------   RODAPÉ   ------------------------*/
+#criado-por{
+    padding: 0px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 70px;
+}
+#criado-por h3 {
+    width: 100%;
+    font-size: 2em;
+    font-weight: bolder;
+    color: black;   
+    height: 40px;
+    background-color: white;
+}
+/*-----------------------  FIM RODAPÉ   ------------------------*/
 }
 
 
