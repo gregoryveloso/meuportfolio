@@ -77,7 +77,7 @@ function showTerra(){
     htmlfinaltexto += "<p>“A terra perdida” é um jogo infinity run 2D, com uma temática selvagem, que mostra uma disputa de território por índios. O objetivo do jogo se  trata de destruir o maior número de inimigos possível e recuperar a maior quantidade possível de ouro deixado pelo caminho </p>"
     htmlfinaltexto += "<button> Jogar </button>"
     textoVideo.innerHTML = htmlfinaltexto
-    document.getElementById("titulo-jogo").style.fontSize = "5em"
+    /*document.getElementById("titulo-jogo").style.fontSize = "5em"*/
 }
 
 function showPrison(){
