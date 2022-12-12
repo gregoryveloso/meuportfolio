@@ -75,7 +75,7 @@ function showTerra(){
 
     htmlfinaltexto += "<h1 id='titulo-jogo'> A terra perdida </h1>"
     htmlfinaltexto += "<p>“A terra perdida” é um jogo infinity run 2D, com uma temática selvagem, que mostra uma disputa de território por índios. O objetivo do jogo se  trata de destruir o maior número de inimigos possível e recuperar a maior quantidade possível de ouro deixado pelo caminho </p>"
-    htmlfinaltexto += "<button> Jogar </button>"
+    htmlfinaltexto += "<button  onclick=\" window.open('https://drive.google.com/drive/folders/13JCyzdI6hJOeLg0_tIYTYndzg1BUH9e5?usp=share_link','_blank')\"> Jogar </button>"
     textoVideo.innerHTML = htmlfinaltexto
     /*document.getElementById("titulo-jogo").style.fontSize = "5em"*/
 }
@@ -92,7 +92,7 @@ function showPrison(){
 
     htmlfinaltexto += "<h1 id='titulo-jogo'> Prison Escape </h1>"
     htmlfinaltexto += '<p>“Prison Escape” é um jogo onde você acorda em um lugar desconhecido, se vê preso e com um único objetivo, escapar do local o mais rápido possível, passando por desafios que vão desafiar sua mente e suas habilidades </p>'
-    htmlfinaltexto += "<button> Jogar </button>"
+    htmlfinaltexto += "<button onclick=\" window.open('https://drive.google.com/drive/folders/12EeLY-GboA1m1M_NpOQzqwEa5oNK-MSj?usp=share_link','_blank')\"> Jogar </button>"
     textoVideo.innerHTML = htmlfinaltexto
 
 }
@@ -109,6 +109,6 @@ function showSoulless(){
 
     htmlfinaltexto += "<h1 id='titulo-jogo'> Soulless </h1>"
     htmlfinaltexto += "<p>Em um universo distópico governado por adultos que estão isentos de sentimentos, um robô considerado como falha parte em uma jornada para entender o significado dos sentimentos </p>"
-    htmlfinaltexto += "<button> Jogar </button>"
+    htmlfinaltexto += "<button onclick=\" window.open('https://drive.google.com/drive/folders/1BhsGMUiOSl47QCcoAwdLJzh-x_Jl3c7m?usp=share_link','_blank')\"> Jogar </button>"
     textoVideo.innerHTML = htmlfinaltexto
 }
