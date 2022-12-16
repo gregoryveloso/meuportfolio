@@ -36,6 +36,11 @@ body{
     width: 95%;
 }
 
+.top-space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* //////////////////////////////////////// */
 @media screen and (min-width:1101px){
 #container{
@@ -370,7 +375,7 @@ header{
 .site{
     margin-top: 20px;
     width: 49%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 
@@ -825,7 +830,7 @@ header{
 .site{
     margin-top: 20px;
     width: 49%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 
